@@ -1,9 +1,5 @@
 <div align="center"><a href="https://sunguoqi.com/"> <img src="https://readme-typing-svg.herokuapp.com/?lines=The+quieter+you+become,;the+more+you+are+able+to+hear.;Welcome+to+my+little+nest!&center=true&size=27"> </a> </div>
 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=kyxiaxiang&amp;label=Views&amp;color=0e75b6&amp;style=flat"style="max-width: 100%;">
-  <img src="https://badges.pufler.dev/visits/kyxiaxiang/kyxiaxiang?color=black&logo=github&style=flat-square">♂
-</div>
 <img src="https://github.com/heartyang520/HeartYang.github.io/blob/main/share/paomaxian.gif?raw=true" height="20" width="100%">
 
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=monokai&quote=虚心向学，君子不器🎈&author=可以遐想">
