@@ -7,9 +7,10 @@
 
 <h2>Watching</h2>
 <div align="center">
-  <img src="https://profile-counter.glitch.me/kyxiaxiang/count.svg">
-  <img src="https://stats.justsong.cn/api/bilibili/?id=1067016511&theme=radical#&lang=zh-CN">
+  <img src="https://profile-counter.glitch.me/kyxiaxiang/count.svg">  
 </div>
+
+<img src="https://stats.justsong.cn/api/bilibili/?id=1067016511&theme=radical#&lang=zh-CN">
 
 <div align="center"> 
   <img src=https://github-readme-stats.vercel.app/api/top-langs/?username=kyxiaxiang&theme=radical&show_icons=true>
