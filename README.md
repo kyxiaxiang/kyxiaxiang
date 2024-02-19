@@ -12,7 +12,6 @@
 
 <div align="center"> 
   <img src="https://stats.justsong.cn/api/bilibili/?id=1067016511&theme=radical#&lang=zh-CN">
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=kyxiaxiang&theme=radical&hide_border=true" />
 </div>
 
 <div align="center"> 
@@ -20,12 +19,10 @@
 </div>
 
 
-
-
-<div align="center"> 
-  <img height="137px" src="https://github-readme-stats.vercel.app/api?username=kyxiaxiang&hide_title=true&hide_border=true&show_icons=trueline_height=21&text_color=000&icon_color=000&bg_color=0,ea6161,ffc64d,fffc4d,52fa5a&theme=graywhite" /> 
-</div>
-
+<p align="center">
+  <img width="49%" src="https://github-stats-alpha.vercel.app/api?username=kyxiaxiang&cc=1a1b27&tc=38bdae&ic=bf91f3&bc=ffff"  />
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=kyxiaxiang"  />
+</p>
 
 
 
