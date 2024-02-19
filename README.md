@@ -36,5 +36,6 @@ The previous account cannot be found: QAQ:Original address: https://github.com/k
   <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=kyxiaxiang"  />
 </p>
 
+<div align="center"> <img src="https://activity-graph.herokuapp.com/graph?username=kyxiaxiang&theme=xcode" /> </div>
 
 
