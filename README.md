@@ -6,12 +6,12 @@
 之前的账号找不到了：QAQ:原地址：https://github.com/keyixiaxiang
 
 <h2>Watching</h2>
-<div align="left">
+<div align="center">
   <img src="https://profile-counter.glitch.me/kyxiaxiang/count.svg">
   <img src="https://stats.justsong.cn/api/bilibili/?id=1067016511&theme=radical#&lang=zh-CN">
 </div>
 
-<div align=""> 
+<div align="center"> 
   <img src=https://github-readme-stats.vercel.app/api/top-langs/?username=kyxiaxiang&theme=radical&show_icons=true>
   <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=kyxiaxiang&theme=radical&hide_border=true" />
 </div>
