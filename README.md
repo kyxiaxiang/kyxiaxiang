@@ -10,11 +10,13 @@
   <img src="https://profile-counter.glitch.me/kyxiaxiang/count.svg">  
 </div>
 
-<img src="https://stats.justsong.cn/api/bilibili/?id=1067016511&theme=radical#&lang=zh-CN">
+<div align="center"> 
+  <img src="https://stats.justsong.cn/api/bilibili/?id=1067016511&theme=radical#&lang=zh-CN">
+  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=kyxiaxiang&theme=radical&hide_border=true" />
+</div>
 
 <div align="center"> 
-  <img src=https://github-readme-stats.vercel.app/api/top-langs/?username=kyxiaxiang&theme=radical&show_icons=true>
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=kyxiaxiang&theme=radical&hide_border=true" />
+  <img src=https://github-readme-stats.vercel.app/api/top-langs/?username=kyxiaxiang&theme=radical&show_icons=true> 
 </div>
 
 
