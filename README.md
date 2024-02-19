@@ -1,4 +1,4 @@
-<div align="center"><a href="https://sunguoqi.com/"> <img src="https://readme-typing-svg.herokuapp.com/?lines='The+quieter+you+become;the+more+you+are+able+to+hear.;Welcome+to+my+little+nest!&center=true&size=27"> </a> </div>
+<div align="center"><a href="https://sunguoqi.com/"> <img src="https://readme-typing-svg.herokuapp.com/?lines=The+quieter+you+become,;the+more+you+are+able+to+hear.;Welcome+to+my+little+nest!&center=true&size=27"> </a> </div>
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=kyxiaxiang&amp;label=Views&amp;color=0e75b6&amp;style=flat"style="max-width: 100%;">
