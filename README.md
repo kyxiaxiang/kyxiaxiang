@@ -4,6 +4,14 @@
 
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=monokai&quote=虚心向学，君子不器🎈&author=可以遐想">
 
+```
+岁月磨我少年志，时光凉我善良心；
+总有人间一两风，填我十万八千梦。
+```
+```
+可以遐想 这个id的由来(简要)：念天地悠悠浩渺，我觉得人活着更重要的是做自己。很多不可言，很多不可思，很多不可视，这个世界就像一个巨大的囚笼，也像一个巨大的盲盒。我喜欢思维跳脱，让思维的力量带我行走，人生天地间，多遐想，少瞎想~
+```
+
 😄Hi! I'm kyxx, an Offensive Security afficionado(Maybe Red Teamer). I'm very lazy，hahaha, this Github account acts as my legacy. 
 
 ⚡ Welcome to my Github lair,Hope the stuff here can be helpful to you.
