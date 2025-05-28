@@ -80,7 +80,7 @@
 
 ### 🧰 技能图标 | My Stack
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,linux,bash,docker,kali,github,git,vscode,js,go,html,css,postman&perline=10">
+  <img src="https://skillicons.dev/icons?i=python,java,cpp,go,js,ts,html,css,sass,react,nextjs,nodejs,express,tailwind,bootstrap,mysql,sqlite,mongodb,redis,linux,bash,docker,kubernetes,git,github,vscode,postman,kali,nginx,aws,gcp&perline=12">
 </p>
 
 ---
@@ -93,8 +93,8 @@
   <a href="https://space.bilibili.com/1067016511">
     <img src="https://img.shields.io/badge/Bilibili-%2300A1D6.svg?style=for-the-badge&logo=bilibili&logoColor=white"/>
   </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/Blog-ComingSoon-%23FF8800.svg?style=for-the-badge"/>
+  <a href="https://kyxiaxiang.github.io">
+    <img src="https://img.shields.io/badge/Blog-kyxiaxiang.github.io-%23FF8800.svg?style=for-the-badge"/>
   </a>
 </p>
 
