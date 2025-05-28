@@ -4,6 +4,47 @@
   </a>
 </div>
 
+<!-- 背景动效 -->
+<div style="position:fixed;top:0;left:0;width:100%;height:100%;z-index:-1;background:radial-gradient(#0f2027,#203a43,#2c5364);overflow:hidden">
+  <canvas id="bg-canvas" width="100%" height="100%"></canvas>
+</div>
+
+<script>
+  const canvas = document.getElementById('bg-canvas');
+  const ctx = canvas.getContext('2d');
+  let w, h;
+  function resize() {
+    w = canvas.width = window.innerWidth;
+    h = canvas.height = window.innerHeight;
+  }
+  window.addEventListener('resize', resize);
+  resize();
+
+  let particles = Array.from({ length: 80 }, () => ({
+    x: Math.random() * w,
+    y: Math.random() * h,
+    r: Math.random() * 2 + 1,
+    dx: (Math.random() - 0.5) * 0.5,
+    dy: (Math.random() - 0.5) * 0.5
+  }));
+
+  function animate() {
+    ctx.clearRect(0, 0, w, h);
+    ctx.fillStyle = 'rgba(255, 255, 255, 0.8)';
+    for (let p of particles) {
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+      ctx.fill();
+      p.x += p.dx;
+      p.y += p.dy;
+      if (p.x < 0 || p.x > w) p.dx *= -1;
+      if (p.y < 0 || p.y > h) p.dy *= -1;
+    }
+    requestAnimationFrame(animate);
+  }
+  animate();
+</script>
+
 <hr>
 <img src="https://github.com/heartyang520/HeartYang.github.io/blob/main/share/paomaxian.gif?raw=true" width="100%" height="20">
 
@@ -12,7 +53,7 @@
 </div>
 
 <blockquote>
-  <p style="font-style: italic; font-size: 1.1em; color: #555;">
+  <p style="font-style: italic; font-size: 1.1em; color: #ccc;">
     岁月磨我少年志，时光凉我善良心；<br>
     总有人间一两风，填我十万八千梦。<br>
     <em>Time sharpens my youthful ambition, while life cools my kind heart. Somewhere, a gentle breeze fills thousands of dreams.</em>
@@ -48,17 +89,37 @@
   <a href="https://github.com/keyixiaxiang">https://github.com/keyixiaxiang</a>
 </blockquote>
 
-<hr>
-<img src="https://github.com/heartyang520/HeartYang.github.io/blob/main/share/paomaxian.gif?raw=true" width="100%" height="20">
+---
 
-<div align="center">
-  <img src="https://profile-counter.glitch.me/kyxiaxiang/count.svg" alt="Visitor Count">
-</div>
+### 🛑 Legal Disclaimer | 合法性声明
+> 本人不参与任何现实网络攻防演练、非法渗透或测试活动。<br>
+> 所有代码、脚本、工具、博客等仅供学习与研究使用。<br>
+> 如有溯源均与本人无关，亦不承担相关责任。<br>
+> I do not participate in any real-world offensive engagements, penetration tests, or unauthorized activities. All code and content are for educational purposes only. I disclaim any liability for misuse.
+
+---
+
+### 🧰 技能图标 | My Stack
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,java,cpp,go,js,ts,html,css,sass,react,nextjs,nodejs,express,tailwind,bootstrap,mysql,sqlite,mongodb,redis,linux,bash,docker,kubernetes,git,github,vscode,postman,kali,nginx,aws,gcp&perline=12">
+</p>
+
+### 🌐 快捷链接 | Quick Links
+<p align="center">
+  <a href="https://github.com/kyxiaxiang">
+    <img src="https://img.shields.io/badge/GitHub-%2312100E.svg?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  <a href="https://space.bilibili.com/1067016511">
+    <img src="https://img.shields.io/badge/Bilibili-%2300A1D6.svg?style=for-the-badge&logo=bilibili&logoColor=white"/>
+  </a>
+  <a href="https://kyxiaxiang.github.io">
+    <img src="https://img.shields.io/badge/Blog-kyxiaxiang.github.io-%23FF8800.svg?style=for-the-badge"/>
+  </a>
+</p>
 
 ---
 
 ### 🧭 我的足迹 | My Footprints
-
 <p align="center">
   <img src="https://stats.justsong.cn/api/bilibili/?id=1067016511&theme=radical&lang=zh-CN">
 </p>
@@ -76,30 +137,7 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=kyxiaxiang&theme=dracula">
 </p>
 
----
-
-### 🧰 技能图标 | My Stack
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,cpp,go,js,ts,html,css,sass,react,nextjs,nodejs,express,tailwind,bootstrap,mysql,sqlite,mongodb,redis,linux,bash,docker,kubernetes,git,github,vscode,postman,kali,nginx,aws,gcp&perline=12">
-</p>
-
----
-
-### 🌐 快捷链接 | Quick Links
-<p align="center">
-  <a href="https://github.com/kyxiaxiang">
-    <img src="https://img.shields.io/badge/GitHub-%2312100E.svg?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-  <a href="https://space.bilibili.com/1067016511">
-    <img src="https://img.shields.io/badge/Bilibili-%2300A1D6.svg?style=for-the-badge&logo=bilibili&logoColor=white"/>
-  </a>
-  <a href="https://kyxiaxiang.github.io">
-    <img src="https://img.shields.io/badge/Blog-kyxiaxiang.github.io-%23FF8800.svg?style=for-the-badge"/>
-  </a>
-</p>
-
 <hr>
-
 <div align="center">
   <h3>✨ 感谢来访！愿你我皆能在技术的世界里遨游不止 ✨<br>
   ✨ Thanks for stopping by! May we all roam endlessly in the world of tech ✨</h3>
