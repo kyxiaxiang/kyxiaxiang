@@ -4,47 +4,6 @@
   </a>
 </div>
 
-<!-- 背景动效 -->
-<div style="position:fixed;top:0;left:0;width:100%;height:100%;z-index:-1;background:radial-gradient(#0f2027,#203a43,#2c5364);overflow:hidden">
-  <canvas id="bg-canvas" width="100%" height="100%"></canvas>
-</div>
-
-<script>
-  const canvas = document.getElementById('bg-canvas');
-  const ctx = canvas.getContext('2d');
-  let w, h;
-  function resize() {
-    w = canvas.width = window.innerWidth;
-    h = canvas.height = window.innerHeight;
-  }
-  window.addEventListener('resize', resize);
-  resize();
-
-  let particles = Array.from({ length: 80 }, () => ({
-    x: Math.random() * w,
-    y: Math.random() * h,
-    r: Math.random() * 2 + 1,
-    dx: (Math.random() - 0.5) * 0.5,
-    dy: (Math.random() - 0.5) * 0.5
-  }));
-
-  function animate() {
-    ctx.clearRect(0, 0, w, h);
-    ctx.fillStyle = 'rgba(255, 255, 255, 0.8)';
-    for (let p of particles) {
-      ctx.beginPath();
-      ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
-      ctx.fill();
-      p.x += p.dx;
-      p.y += p.dy;
-      if (p.x < 0 || p.x > w) p.dx *= -1;
-      if (p.y < 0 || p.y > h) p.dy *= -1;
-    }
-    requestAnimationFrame(animate);
-  }
-  animate();
-</script>
-
 <hr>
 <img src="https://github.com/heartyang520/HeartYang.github.io/blob/main/share/paomaxian.gif?raw=true" width="100%" height="20">
 
